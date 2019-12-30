@@ -36,8 +36,8 @@ class RunTracker {
   }
 
   const runner = new RunTracker("suzan", "sos@email.com");
-  runner.addRun("2017-01-01", 10, 30)
-  runner.addRun("2017-01-02", 5, 20)
+  runner.addRun("2020-04-01", 10, 30)
+  runner.addRun("2020-08-02", 5, 20)
   console.log(runner.totalDistance())
   console.log(runner.longestDistance())
   console.log(runner.averageSpeed())
